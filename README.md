@@ -1,4 +1,4 @@
-# Gemini Chatbot
+# Gemini Chatbot Kit
 
 A customizable NPM library for easily integrating Google's Gemini AI-powered chatbots into your applications.
 
@@ -13,13 +13,13 @@ A customizable NPM library for easily integrating Google's Gemini AI-powered cha
 ## Installation
 
 ```bash
-npm install gemini-chatbot
+npm i gemini-chatbot-kit
 ```
 ## Usage
 ### Quick Start
 
 ```javascript
-const { createChatbot } = require("gemini-chatbot");
+const { createChatbot } = require("gemini-chatbot-kit");
 
 async function example() {
   // Initialize with your Gemini API key
@@ -38,7 +38,7 @@ example();
 The library comes with pre-configured templates for common use cases:
 
 ```javascript
-const { createChatbot, templates } = require("gemini-chatbot");
+const { createChatbot, templates } = require("gemini-chatbot-kit");
 
 async function example() {
   const chatbot = createChatbot("YOUR_GEMINI_API_KEY");

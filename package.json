@@ -1,7 +1,11 @@
 {
   "name": "gemini-chatbot-kit",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anuprita579/gemini-chatbot-kit"
+  },
   "scripts": {
     "test": "jest",
     "lint": "eslint src"

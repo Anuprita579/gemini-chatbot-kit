@@ -144,6 +144,10 @@ Add your own custom templates to a specific category.
 | **healthcare** | Healthcare tone, non-prescriptive |
 | **sales** | Promotes products or services |
 | **technical** | Provides tech support & technical advice |
+| **ecoAdvisor** | Provides advice on sustainable and eco-friendly practices |
+| **insurance** | Guides users in choosing appropriate insurance policies |
+| **investment** | Offers investment suggestions based on financial goals |
+| **restaurant** | Assists users in browsing menus, ordering food, and delivery tracking |
 
  
 ## 🎭 Available Moods
@@ -155,7 +159,12 @@ Add your own custom templates to a specific category.
 | **motivational** | Positive, uplifting, encouraging tone |
 | **sarcastic** | Witty, ironic, teasing tone |
 | **humorous** | Funny and light-hearted tone |
-
+| **assertive** | Direct, confident, and decisive tone |
+| **empathetic** | Shows understanding, compassion, and emotional support |
+| **enthusiastic** | High-energy, excited, and passionate tone |
+| **informative** | Focused on giving clear, detailed information |
+| **neutral** | Completely objective, balanced, no emotion |
+    
       
 ## Example: Applying Role and Mood Together
 ```javascript
@@ -186,3 +195,7 @@ chatbot.addTemplates({
 // Apply your custom template
 chatbot.applyTemplate('productSupport', 'custom');
 ```
+
+## 🤝 Contributing
+Pull requests are welcome!
+For major changes, please open an issue first to discuss what you would like to change.

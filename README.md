@@ -1,21 +1,38 @@
+![npm version](https://img.shields.io/npm/v/gemini-chatbot-kit)
+![license](https://img.shields.io/npm/l/gemini-chatbot-kit)
+![downloads](https://img.shields.io/npm/dw/gemini-chatbot-kit)
+
 # Gemini Chatbot Kit
 
-A customizable NPM library for easily integrating Google's Gemini AI-powered chatbots into your applications.
+Gemini Chatbot Kit is a customizable AI chatbot library built for easy integration of Google's Gemini AI into your applications. Create smart, conversational chatbots with just a few lines of code using this lightweight NPM library.
 
 ## Features
 
 - 🤖 Pre-configured chatbot templates for different use cases
 - ✨ Highly customizable prompts and behaviors
 - 🔄 Simple API for managing conversations
-- 🛠️ Utilities for common chatbot functions
-- ⚡ Works with modern JavaScript environments
+- 🛠️ Built-in utilities for common chatbot functions
+- ⚡ Optimized for modern JavaScript environments
+- 🧩 Supports Custom Roles and Mood Control out of the box
+- 🔗 Combined Templates for even richer chatbot personalities
+
+
+## Why Gemini Chatbot Kit?
+
+If you're looking for a Gemini AI chatbot library that's easy to set up, highly customizable, and powerful, Gemini Chatbot Kit is designed for you.
+Whether you want to create a professional customer service bot, an informative educational tool, or a playful conversational AI, this library provides ready-to-use templates, mood switching, and flexible APIs for rapid development.
 
 ## Installation
+
+Install the Gemini Chatbot Kit NPM package to start building your Gemini-powered chatbots:
 
 ```bash
 npm i gemini-chatbot-kit
 ```
 ## Usage
+
+Example of using Gemini Chatbot Kit to create a basic AI chatbot.
+
 ### Quick Start
 
 ```javascript
@@ -35,7 +52,7 @@ example();
 
 ### Using Templates
 
-The library comes with pre-configured templates for common use cases:
+The Gemini Chatbot Kit supports pre-configured templates for common scenarios:
 
 ```javascript
 const { createChatbot, templates } = require("gemini-chatbot-kit");
@@ -199,3 +216,8 @@ chatbot.applyTemplate('productSupport', 'custom');
 ## 🤝 Contributing
 Pull requests are welcome!
 For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📚 Related Keywords
+gemini chatbot | AI chatbot library | Gemini chatbot kit | Google's Gemini chatbot | Gemini AI integration | customizable chatbot NPM package | chatbot development Node.js

@@ -14,6 +14,7 @@ const friendly = require("./moods/friendly");
 const sarcastic = require("./moods/sarcastic");
 const formal = require("./moods/formal");
 const humorous = require("./moods/humorous");
+const motivational = require("./moods/motivational");
 const assertive = require("./moods/assertive");
 const empathetic = require("./moods/empathetic");
 const enthusiastic = require("./moods/enthusiastic");
